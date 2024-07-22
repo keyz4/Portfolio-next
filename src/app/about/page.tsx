@@ -66,7 +66,7 @@ export default function About() {
           </div>
         </div>
         <div className="h-max w-full flex flex-col justify-center items-center">
-          <div className="flex justify-start w-full ml-8 font-poppins font-semibold text-slate-400 text-xl">What I'm Doing</div>
+          <div className="flex justify-start w-full ml-8 font-poppins font-semibold text-slate-400 text-xl">What I&apos;m Doing</div>
           <div className="grid md:grid-cols-2 grid-cols-1 md:grid-rows-3 gap-4 mt-2 w-full pb-4 px-2 mb-4">
             <div className="rounded-xl flex justify-start items-center">
               <div className="text-5xl ml-4"><FaComputer className="fill-green-900" /></div>
