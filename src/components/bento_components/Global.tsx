@@ -410,7 +410,7 @@ function Global() {
           }}
           className="div"
         >
-          <div className=" relative z-20 h-[10rem] flex justify-center items-center w-[80%] text-wrap text-center ml-8" >I'm available for communication across multiple time zones.</div>
+          <div className=" relative z-20 h-[10rem] flex justify-center items-center w-[80%] text-wrap text-center ml-8" >I&apos;m available for communication across multiple time zones.</div>
         </motion.div>
         <div className="absolute w-full top-0 inset-x-0 h-40 bg-gradient-to-b pointer-events-none select-none from-transparent to-black z-40" />
         <div className="absolute w-full -bottom-20 h-72 md:h-full z-10">

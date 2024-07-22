@@ -20,7 +20,7 @@ function page() {
           <div className='w-full h-max flex justify-center mt-4' >
             <TextRevealCard
                 text="Your ambition, my technology"
-                revealText="let's build the future."
+                revealText="let&apos;s build the future."
               >
               <TextRevealCardTitle className='md:w-[22rem] w-full text-wrap h-max font-mono' >
                 The best way to get a project done faster is to start sooner.
