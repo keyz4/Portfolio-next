@@ -31,3 +31,26 @@ body {
     text-wrap: balance;
   }
 }
+
+.bungee_shade{
+  font-family: var(--font-bungee_shade);
+}
+.wallpoet{
+  font-family: var(--font-wallpoet);
+}
+.poppins{
+  font-family: var(--font-poppins);
+}
+.merienda{
+  font-family: var(--font-merienda);
+}
+
+
+.hide-scrollbar {
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;  /* Safari and Chrome */
+}
