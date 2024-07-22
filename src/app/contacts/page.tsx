@@ -16,7 +16,7 @@ function page() {
       <NavBar/>
       <div className="flex flex-col items-center md:flex-row md:items-start w-screen md:justify-center mt-24 overflow-hidden" >
         <div className="flex-col justify-center items-center p-12 w-[95%] md:w-[50%] h-max md:mt-8">
-          <div className="text-2xl md:text-4xl w-full h-max text-wrap text-center mx-auto font-mono  font-medium text-slate-400 mb-8  overflow-hidden">Ready to bring your ideas to life? <div/> <span className='text-purple-600 font-poppins font-semibold md:text-5xl' >Let's chat!</span></div>
+          <div className="text-2xl md:text-4xl w-full h-max text-wrap text-center mx-auto font-mono  font-medium text-slate-400 mb-8  overflow-hidden">Ready to bring your ideas to life? <div/> <span className='text-purple-600 font-poppins font-semibold md:text-5xl' >Let&apos;s chat!</span></div>
           <div className='w-full h-max flex justify-center mt-4' >
             <TextRevealCard
                 text="Your ambition, my technology"
@@ -26,7 +26,7 @@ function page() {
                 The best way to get a project done faster is to start sooner.
               </TextRevealCardTitle>
               <TextRevealCardDescription>
-                I'm always excited to work on new projects and collaborate with passionate people. Whether you have a question, an idea, or just want to say hello, feel free to drop me a message!
+                I&apos;m always excited to work on new projects and collaborate with passionate people. Whether you have a question, an idea, or just want to say hello, feel free to drop me a message!
               </TextRevealCardDescription>
             </TextRevealCard>
           </div>
