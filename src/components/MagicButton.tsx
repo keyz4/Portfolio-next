@@ -1,6 +1,6 @@
 import React from 'react'
 
-function MagicButton({title,className,icon,click}:{title:string,className:string,icon:React.ReactNode,click:()=>void}) {
+function MagicButton({title,className,icon,click}:{title:string,className:string,icon:React.ReactNode,click?:()=>void}) {
   return (
     <div className='m-8' >
         <button onClick={click} className="relative inline-flex h-12 overflow-hidden rounded-lg p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 ">

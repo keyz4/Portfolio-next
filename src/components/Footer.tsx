@@ -5,9 +5,7 @@ import { socialMedia } from "@/lib/socailData";
 import MagicButton from "./MagicButton";
 
 const Footer = () => {
-  const onClickfunc = ()=>{
-    
-  }
+  
   return (
     <footer className="w-full pt-10 pb-10" id="contact">
       {/* background grid */}
@@ -33,7 +31,7 @@ const Footer = () => {
             title="Let's get in touch"
             className={`inline-flex h-full w-full cursor-pointer items-center justify-center rounded-lg hover:bg-purple-700 bg-slate-950 px-8 py-1 text-sm font-medium text-white backdrop-blur-3xl`}
             icon={<FaLocationArrow className='m-2'/>}
-            click={onClickfunc}
+            
           />
         </a>
       </div>
