@@ -4,17 +4,9 @@ import Image from "next/image";
 import { FaDownload, FaGithub, FaLinkedin, FaTwitter, FaLocationDot, FaComputer, FaDatabase, FaCode, FaLaptopCode, FaNetworkWired } from "react-icons/fa6";
 import { AiOutlineApi } from "react-icons/ai";
 import { FaSquareXTwitter } from "react-icons/fa6";
+import {handleDownload} from '@/lib/handleDownload.js';
 
 export default function About() {
-  const handleDownload = () => {
-    // Create an anchor element and set the href attribute to the PDF file path
-    const link = document.createElement('a');
-    link.href = '/resumeGo.pdf'; // Path to your PDF file in the public directory
-    link.download = 'BestResumeEver.pdf'; // The name for the downloaded file
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
 
   return (
     <div className="h-max w-screen flex flex-col md:flex-row justify-center items-center bg-slate-950 overflow-hidden mb-4 md:justify-end mt-8">

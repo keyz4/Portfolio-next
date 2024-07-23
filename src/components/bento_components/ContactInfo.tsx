@@ -81,7 +81,7 @@ function ContactInfo() {
             </div>
             
         </div>
-        <div className='flex w-full justify-center items-center bg-slate-400 opacity-70 h-20 px-8 py-2' >
+        <div className='flex w-full justify-center items-center bg-slate-700 opacity-70 h-20 px-8 py-2' >
             <AnimatedTooltip items={skills}/>
         </div>
         

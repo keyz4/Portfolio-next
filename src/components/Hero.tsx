@@ -1,12 +1,13 @@
 'use client'
-import React, { useEffect } from 'react'
-import { Spotlight } from "@/components/ui/Spotlight"
-import { TextGenerateEffect } from './ui/text-generate-effect'
-import MagicButton from './MagicButton'
-import MagicGrid from './MagicGrid'
-import { NavBar } from './NavBar'
+import React, { useEffect } from 'react';
+import { Spotlight } from "@/components/ui/Spotlight";
+import { TextGenerateEffect } from './ui/text-generate-effect';
+import MagicButton from './MagicButton';
+import MagicGrid from './MagicGrid';
+import { NavBar } from './NavBar';
 import { TypewriterEffectSmooth } from "./ui/typewriter-effect";
-import { FaLocationArrow } from 'react-icons/fa6'
+import { FaLocationArrow } from 'react-icons/fa6';
+import {handleDownload} from '@/lib/handleDownload.js';
 
 function Hero() {
     // useEffect(()=>{
@@ -21,16 +22,6 @@ function Hero() {
           text: "MISHRA",
         },
       ];
-    
-    const handleDownload = () => {
-    // Create an anchor element and set the href attribute to the PDF file path
-    const link = document.createElement('a');
-    link.href = '/resumeGo.pdf'; // Path to your PDF file in the public directory
-    link.download = 'BestResumeEver.pdf'; // The name for the downloaded file
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-    };
 
   return (
     <div className='pt-20 h-max ' >
